@@ -1,0 +1,6 @@
+/home/osboxes/STM32CubeMP1/Projects/STM32MP157C-DK2/Applications/OpenAMP/OpenAMP_TTY_echo/Src/main.c:77:5:main	8
+/home/osboxes/STM32CubeMP1/Projects/STM32MP157C-DK2/Applications/OpenAMP/OpenAMP_TTY_echo/Src/main.c:171:6:SystemClock_Config	3
+/home/osboxes/STM32CubeMP1/Projects/STM32MP157C-DK2/Applications/OpenAMP/OpenAMP_TTY_echo/Src/main.c:286:13:MX_IPCC_Init	2
+/home/osboxes/STM32CubeMP1/Projects/STM32MP157C-DK2/Applications/OpenAMP/OpenAMP_TTY_echo/Src/main.c:297:6:VIRT_UART1_RxCpltCallback	1
+/home/osboxes/STM32CubeMP1/Projects/STM32MP157C-DK2/Applications/OpenAMP/OpenAMP_TTY_echo/Src/main.c:308:6:VIRT_UART0_RxCpltCallback	3
+/home/osboxes/STM32CubeMP1/Projects/STM32MP157C-DK2/Applications/OpenAMP/OpenAMP_TTY_echo/Src/main.c:337:6:Error_Handler	1
