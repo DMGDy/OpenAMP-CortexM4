@@ -300,12 +300,17 @@ void VIRT_UART0_RxCpltCallback(VIRT_UART_HandleTypeDef *huart)
 	if(strncmp(strmsg,"hello",5) == 0)
 	{
 		msg  = "Greetings from Cortex-M4 Microcontroller!\n";
-		log_info("MC IPC wakup\n");
+		log_info("1");
 	}
 	else if(strncmp(strmsg,"no",2) == 0)
 	{
 		msg = "Testing with no string potentiometer\n";
-		log_info("None");
+		log_info("0");
+	}
+	else if(strncmp(strmsg,"yes",3) == 0)
+	{
+		msg = "Testing with string potentiometer\n";
+		log_info("1");
 	}
 	else
 	{

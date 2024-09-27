@@ -1,5 +1,0 @@
-/home/osboxes/STM32CubeMP1/Projects/STM32MP157C-DK2/Applications/OpenAMP/OpenAMP_TTY_echo/Src/mbox_ipcc.c:76:5:MAILBOX_Init	16	static
-/home/osboxes/STM32CubeMP1/Projects/STM32MP157C-DK2/Applications/OpenAMP/OpenAMP_TTY_echo/Src/mbox_ipcc.c:107:5:MAILBOX_Poll	24	static
-/home/osboxes/STM32CubeMP1/Projects/STM32MP157C-DK2/Applications/OpenAMP/OpenAMP_TTY_echo/Src/mbox_ipcc.c:154:5:MAILBOX_Notify	32	static
-/home/osboxes/STM32CubeMP1/Projects/STM32MP157C-DK2/Applications/OpenAMP/OpenAMP_TTY_echo/Src/mbox_ipcc.c:200:6:IPCC_channel1_callback	24	static
-/home/osboxes/STM32CubeMP1/Projects/STM32MP157C-DK2/Applications/OpenAMP/OpenAMP_TTY_echo/Src/mbox_ipcc.c:223:6:IPCC_channel2_callback	24	static

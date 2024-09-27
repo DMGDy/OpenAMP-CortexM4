@@ -5964,7 +5964,7 @@ LOAD /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.
                 0x0000000000000000                g_pfnVectors
                 0x0000000000000298                . = ALIGN (0x4)
 
-.text           0x0000000010000000     0x7020
+.text           0x0000000010000000     0x7070
                 0x0000000010000000                . = ALIGN (0x4)
  *(.text)
  .text          0x0000000010000000       0x40 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+fp/hard/crtbegin.o
@@ -6144,806 +6144,806 @@ LOAD /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.
  .text.MX_IPCC_Init
                 0x0000000010000880       0x28 ./Application/User/main.o
  .text.VIRT_UART0_RxCpltCallback
-                0x00000000100008a8      0x140 ./Application/User/main.o
+                0x00000000100008a8      0x190 ./Application/User/main.o
                 0x00000000100008a8                VIRT_UART0_RxCpltCallback
  .text.Error_Handler
-                0x00000000100009e8       0x44 ./Application/User/main.o
-                0x00000000100009e8                Error_Handler
+                0x0000000010000a38       0x44 ./Application/User/main.o
+                0x0000000010000a38                Error_Handler
  .text.MAILBOX_Init
-                0x0000000010000a2c       0xb8 ./Application/User/mbox_ipcc.o
-                0x0000000010000a2c                MAILBOX_Init
+                0x0000000010000a7c       0xb8 ./Application/User/mbox_ipcc.o
+                0x0000000010000a7c                MAILBOX_Init
  .text.MAILBOX_Poll
-                0x0000000010000ae4       0x54 ./Application/User/mbox_ipcc.o
-                0x0000000010000ae4                MAILBOX_Poll
+                0x0000000010000b34       0x54 ./Application/User/mbox_ipcc.o
+                0x0000000010000b34                MAILBOX_Poll
  .text.MAILBOX_Notify
-                0x0000000010000b38       0x9c ./Application/User/mbox_ipcc.o
-                0x0000000010000b38                MAILBOX_Notify
+                0x0000000010000b88       0x9c ./Application/User/mbox_ipcc.o
+                0x0000000010000b88                MAILBOX_Notify
  .text.IPCC_channel1_callback
-                0x0000000010000bd4       0x2c ./Application/User/mbox_ipcc.o
-                0x0000000010000bd4                IPCC_channel1_callback
+                0x0000000010000c24       0x2c ./Application/User/mbox_ipcc.o
+                0x0000000010000c24                IPCC_channel1_callback
  .text.IPCC_channel2_callback
-                0x0000000010000c00       0x2c ./Application/User/mbox_ipcc.o
-                0x0000000010000c00                IPCC_channel2_callback
+                0x0000000010000c50       0x2c ./Application/User/mbox_ipcc.o
+                0x0000000010000c50                IPCC_channel2_callback
  .text.metal_device_io_region
-                0x0000000010000c2c       0x36 ./Application/User/openamp.o
- *fill*         0x0000000010000c62        0x2 
+                0x0000000010000c7c       0x36 ./Application/User/openamp.o
+ *fill*         0x0000000010000cb2        0x2 
  .text.OPENAMP_shmem_init
-                0x0000000010000c64      0x140 ./Application/User/openamp.o
+                0x0000000010000cb4      0x140 ./Application/User/openamp.o
  .text.MX_OPENAMP_Init
-                0x0000000010000da4      0x128 ./Application/User/openamp.o
-                0x0000000010000da4                MX_OPENAMP_Init
+                0x0000000010000df4      0x128 ./Application/User/openamp.o
+                0x0000000010000df4                MX_OPENAMP_Init
  .text.OPENAMP_create_endpoint
-                0x0000000010000ecc       0x3c ./Application/User/openamp.o
-                0x0000000010000ecc                OPENAMP_create_endpoint
+                0x0000000010000f1c       0x3c ./Application/User/openamp.o
+                0x0000000010000f1c                OPENAMP_create_endpoint
  .text.OPENAMP_check_for_message
-                0x0000000010000f08       0x18 ./Application/User/openamp.o
-                0x0000000010000f08                OPENAMP_check_for_message
+                0x0000000010000f58       0x18 ./Application/User/openamp.o
+                0x0000000010000f58                OPENAMP_check_for_message
  .text.log_buff
-                0x0000000010000f20       0x4c ./Application/User/openamp_log.o
-                0x0000000010000f20                log_buff
+                0x0000000010000f70       0x4c ./Application/User/openamp_log.o
+                0x0000000010000f70                log_buff
  .text.__io_putchar
-                0x0000000010000f6c       0x18 ./Application/User/openamp_log.o
-                0x0000000010000f6c                __io_putchar
+                0x0000000010000fbc       0x18 ./Application/User/openamp_log.o
+                0x0000000010000fbc                __io_putchar
  .text.resource_table_init
-                0x0000000010000f84       0x28 ./Application/User/rsc_table.o
-                0x0000000010000f84                resource_table_init
+                0x0000000010000fd4       0x28 ./Application/User/rsc_table.o
+                0x0000000010000fd4                resource_table_init
  .text.HAL_MspInit
-                0x0000000010000fac        0xe ./Application/User/stm32mp1xx_hal_msp.o
-                0x0000000010000fac                HAL_MspInit
- *fill*         0x0000000010000fba        0x2 
+                0x0000000010000ffc        0xe ./Application/User/stm32mp1xx_hal_msp.o
+                0x0000000010000ffc                HAL_MspInit
+ *fill*         0x000000001000100a        0x2 
  .text.HAL_IPCC_MspInit
-                0x0000000010000fbc       0x3c ./Application/User/stm32mp1xx_hal_msp.o
-                0x0000000010000fbc                HAL_IPCC_MspInit
+                0x000000001000100c       0x3c ./Application/User/stm32mp1xx_hal_msp.o
+                0x000000001000100c                HAL_IPCC_MspInit
  .text.NMI_Handler
-                0x0000000010000ff8        0xe ./Application/User/stm32mp1xx_it.o
-                0x0000000010000ff8                NMI_Handler
+                0x0000000010001048        0xe ./Application/User/stm32mp1xx_it.o
+                0x0000000010001048                NMI_Handler
  .text.HardFault_Handler
-                0x0000000010001006        0x6 ./Application/User/stm32mp1xx_it.o
-                0x0000000010001006                HardFault_Handler
+                0x0000000010001056        0x6 ./Application/User/stm32mp1xx_it.o
+                0x0000000010001056                HardFault_Handler
  .text.MemManage_Handler
-                0x000000001000100c        0x6 ./Application/User/stm32mp1xx_it.o
-                0x000000001000100c                MemManage_Handler
+                0x000000001000105c        0x6 ./Application/User/stm32mp1xx_it.o
+                0x000000001000105c                MemManage_Handler
  .text.BusFault_Handler
-                0x0000000010001012        0x6 ./Application/User/stm32mp1xx_it.o
-                0x0000000010001012                BusFault_Handler
+                0x0000000010001062        0x6 ./Application/User/stm32mp1xx_it.o
+                0x0000000010001062                BusFault_Handler
  .text.UsageFault_Handler
-                0x0000000010001018        0x6 ./Application/User/stm32mp1xx_it.o
-                0x0000000010001018                UsageFault_Handler
+                0x0000000010001068        0x6 ./Application/User/stm32mp1xx_it.o
+                0x0000000010001068                UsageFault_Handler
  .text.SVC_Handler
-                0x000000001000101e        0xe ./Application/User/stm32mp1xx_it.o
-                0x000000001000101e                SVC_Handler
+                0x000000001000106e        0xe ./Application/User/stm32mp1xx_it.o
+                0x000000001000106e                SVC_Handler
  .text.DebugMon_Handler
-                0x000000001000102c        0xe ./Application/User/stm32mp1xx_it.o
-                0x000000001000102c                DebugMon_Handler
+                0x000000001000107c        0xe ./Application/User/stm32mp1xx_it.o
+                0x000000001000107c                DebugMon_Handler
  .text.PendSV_Handler
-                0x000000001000103a        0xe ./Application/User/stm32mp1xx_it.o
-                0x000000001000103a                PendSV_Handler
+                0x000000001000108a        0xe ./Application/User/stm32mp1xx_it.o
+                0x000000001000108a                PendSV_Handler
  .text.SysTick_Handler
-                0x0000000010001048        0xc ./Application/User/stm32mp1xx_it.o
-                0x0000000010001048                SysTick_Handler
+                0x0000000010001098        0xc ./Application/User/stm32mp1xx_it.o
+                0x0000000010001098                SysTick_Handler
  .text.IPCC_RX1_IRQHandler
-                0x0000000010001054       0x14 ./Application/User/stm32mp1xx_it.o
-                0x0000000010001054                IPCC_RX1_IRQHandler
- .text._getpid  0x0000000010001068       0x10 ./Application/User/syscalls.o
-                0x0000000010001068                _getpid
- .text._kill    0x0000000010001078       0x20 ./Application/User/syscalls.o
-                0x0000000010001078                _kill
- .text._exit    0x0000000010001098       0x14 ./Application/User/syscalls.o
-                0x0000000010001098                _exit
- .text._read    0x00000000100010ac       0x3a ./Application/User/syscalls.o
-                0x00000000100010ac                _read
- .text._write   0x00000000100010e6       0x38 ./Application/User/syscalls.o
-                0x00000000100010e6                _write
- .text._close   0x000000001000111e       0x18 ./Application/User/syscalls.o
-                0x000000001000111e                _close
- .text._fstat   0x0000000010001136       0x20 ./Application/User/syscalls.o
-                0x0000000010001136                _fstat
- .text._isatty  0x0000000010001156       0x16 ./Application/User/syscalls.o
-                0x0000000010001156                _isatty
- .text._lseek   0x000000001000116c       0x1a ./Application/User/syscalls.o
-                0x000000001000116c                _lseek
- *fill*         0x0000000010001186        0x2 
+                0x00000000100010a4       0x14 ./Application/User/stm32mp1xx_it.o
+                0x00000000100010a4                IPCC_RX1_IRQHandler
+ .text._getpid  0x00000000100010b8       0x10 ./Application/User/syscalls.o
+                0x00000000100010b8                _getpid
+ .text._kill    0x00000000100010c8       0x20 ./Application/User/syscalls.o
+                0x00000000100010c8                _kill
+ .text._exit    0x00000000100010e8       0x14 ./Application/User/syscalls.o
+                0x00000000100010e8                _exit
+ .text._read    0x00000000100010fc       0x3a ./Application/User/syscalls.o
+                0x00000000100010fc                _read
+ .text._write   0x0000000010001136       0x38 ./Application/User/syscalls.o
+                0x0000000010001136                _write
+ .text._close   0x000000001000116e       0x18 ./Application/User/syscalls.o
+                0x000000001000116e                _close
+ .text._fstat   0x0000000010001186       0x20 ./Application/User/syscalls.o
+                0x0000000010001186                _fstat
+ .text._isatty  0x00000000100011a6       0x16 ./Application/User/syscalls.o
+                0x00000000100011a6                _isatty
+ .text._lseek   0x00000000100011bc       0x1a ./Application/User/syscalls.o
+                0x00000000100011bc                _lseek
+ *fill*         0x00000000100011d6        0x2 
  .text.BSP_LED_Init
-                0x0000000010001188       0xb8 ./Drivers/BSP/stm32mp15xx_disco.o
-                0x0000000010001188                BSP_LED_Init
+                0x00000000100011d8       0xb8 ./Drivers/BSP/stm32mp15xx_disco.o
+                0x00000000100011d8                BSP_LED_Init
  .text.BSP_LED_On
-                0x0000000010001240       0x70 ./Drivers/BSP/stm32mp15xx_disco.o
-                0x0000000010001240                BSP_LED_On
+                0x0000000010001290       0x70 ./Drivers/BSP/stm32mp15xx_disco.o
+                0x0000000010001290                BSP_LED_On
  .text.BSP_LED_Off
-                0x00000000100012b0       0x70 ./Drivers/BSP/stm32mp15xx_disco.o
-                0x00000000100012b0                BSP_LED_Off
+                0x0000000010001300       0x70 ./Drivers/BSP/stm32mp15xx_disco.o
+                0x0000000010001300                BSP_LED_Off
  .text.BSP_LED_Toggle
-                0x0000000010001320       0x3c ./Drivers/BSP/stm32mp15xx_disco.o
-                0x0000000010001320                BSP_LED_Toggle
+                0x0000000010001370       0x3c ./Drivers/BSP/stm32mp15xx_disco.o
+                0x0000000010001370                BSP_LED_Toggle
  .text.SystemInit
-                0x000000001000135c       0x4c ./Drivers/CMSIS/system_stm32mp1xx.o
-                0x000000001000135c                SystemInit
+                0x00000000100013ac       0x4c ./Drivers/CMSIS/system_stm32mp1xx.o
+                0x00000000100013ac                SystemInit
  .text.HAL_Init
-                0x00000000100013a8       0x34 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal.o
-                0x00000000100013a8                HAL_Init
+                0x00000000100013f8       0x34 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal.o
+                0x00000000100013f8                HAL_Init
  .text.HAL_InitTick
-                0x00000000100013dc       0x6c ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal.o
-                0x00000000100013dc                HAL_InitTick
+                0x000000001000142c       0x6c ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal.o
+                0x000000001000142c                HAL_InitTick
  .text.HAL_IncTick
-                0x0000000010001448       0x28 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal.o
-                0x0000000010001448                HAL_IncTick
+                0x0000000010001498       0x28 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal.o
+                0x0000000010001498                HAL_IncTick
  .text.HAL_GetTick
-                0x0000000010001470       0x18 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal.o
-                0x0000000010001470                HAL_GetTick
+                0x00000000100014c0       0x18 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal.o
+                0x00000000100014c0                HAL_GetTick
  .text.HAL_GetHalVersion
-                0x0000000010001488       0x12 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal.o
-                0x0000000010001488                HAL_GetHalVersion
- *fill*         0x000000001000149a        0x2 
+                0x00000000100014d8       0x12 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal.o
+                0x00000000100014d8                HAL_GetHalVersion
+ *fill*         0x00000000100014ea        0x2 
  .text.__NVIC_SetPriorityGrouping
-                0x000000001000149c       0x48 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_cortex.o
+                0x00000000100014ec       0x48 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_cortex.o
  .text.__NVIC_GetPriorityGrouping
-                0x00000000100014e4       0x1c ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_cortex.o
+                0x0000000010001534       0x1c ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_cortex.o
  .text.__NVIC_EnableIRQ
-                0x0000000010001500       0x3c ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_cortex.o
+                0x0000000010001550       0x3c ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_cortex.o
  .text.__NVIC_SetPriority
-                0x000000001000153c       0x54 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_cortex.o
+                0x000000001000158c       0x54 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_cortex.o
  .text.NVIC_EncodePriority
-                0x0000000010001590       0x66 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_cortex.o
- *fill*         0x00000000100015f6        0x2 
+                0x00000000100015e0       0x66 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_cortex.o
+ *fill*         0x0000000010001646        0x2 
  .text.SysTick_Config
-                0x00000000100015f8       0x44 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_cortex.o
+                0x0000000010001648       0x44 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_cortex.o
  .text.HAL_NVIC_SetPriorityGrouping
-                0x000000001000163c       0x16 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_cortex.o
-                0x000000001000163c                HAL_NVIC_SetPriorityGrouping
+                0x000000001000168c       0x16 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_cortex.o
+                0x000000001000168c                HAL_NVIC_SetPriorityGrouping
  .text.HAL_NVIC_SetPriority
-                0x0000000010001652       0x38 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_cortex.o
-                0x0000000010001652                HAL_NVIC_SetPriority
+                0x00000000100016a2       0x38 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_cortex.o
+                0x00000000100016a2                HAL_NVIC_SetPriority
  .text.HAL_NVIC_EnableIRQ
-                0x000000001000168a       0x1c ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_cortex.o
-                0x000000001000168a                HAL_NVIC_EnableIRQ
+                0x00000000100016da       0x1c ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_cortex.o
+                0x00000000100016da                HAL_NVIC_EnableIRQ
  .text.HAL_SYSTICK_Config
-                0x00000000100016a6       0x18 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_cortex.o
-                0x00000000100016a6                HAL_SYSTICK_Config
- *fill*         0x00000000100016be        0x2 
+                0x00000000100016f6       0x18 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_cortex.o
+                0x00000000100016f6                HAL_SYSTICK_Config
+ *fill*         0x000000001000170e        0x2 
  .text.HAL_GPIO_Init
-                0x00000000100016c0      0x354 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_gpio.o
-                0x00000000100016c0                HAL_GPIO_Init
+                0x0000000010001710      0x354 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_gpio.o
+                0x0000000010001710                HAL_GPIO_Init
  .text.HAL_GPIO_WritePin
-                0x0000000010001a14       0x32 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_gpio.o
-                0x0000000010001a14                HAL_GPIO_WritePin
+                0x0000000010001a64       0x32 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_gpio.o
+                0x0000000010001a64                HAL_GPIO_WritePin
  .text.HAL_GPIO_TogglePin
-                0x0000000010001a46       0x32 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_gpio.o
-                0x0000000010001a46                HAL_GPIO_TogglePin
+                0x0000000010001a96       0x32 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_gpio.o
+                0x0000000010001a96                HAL_GPIO_TogglePin
  .text.HAL_HSEM_FastTake
-                0x0000000010001a78       0x30 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_hsem.o
-                0x0000000010001a78                HAL_HSEM_FastTake
+                0x0000000010001ac8       0x30 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_hsem.o
+                0x0000000010001ac8                HAL_HSEM_FastTake
  .text.HAL_HSEM_Release
-                0x0000000010001aa8       0x26 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_hsem.o
-                0x0000000010001aa8                HAL_HSEM_Release
- *fill*         0x0000000010001ace        0x2 
+                0x0000000010001af8       0x26 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_hsem.o
+                0x0000000010001af8                HAL_HSEM_Release
+ *fill*         0x0000000010001b1e        0x2 
  .text.HAL_IPCC_Init
-                0x0000000010001ad0       0x64 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_ipcc.o
-                0x0000000010001ad0                HAL_IPCC_Init
+                0x0000000010001b20       0x64 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_ipcc.o
+                0x0000000010001b20                HAL_IPCC_Init
  .text.HAL_IPCC_ActivateNotification
-                0x0000000010001b34       0x9c ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_ipcc.o
-                0x0000000010001b34                HAL_IPCC_ActivateNotification
+                0x0000000010001b84       0x9c ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_ipcc.o
+                0x0000000010001b84                HAL_IPCC_ActivateNotification
  .text.HAL_IPCC_GetChannelStatus
-                0x0000000010001bd0       0x68 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_ipcc.o
-                0x0000000010001bd0                HAL_IPCC_GetChannelStatus
+                0x0000000010001c20       0x68 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_ipcc.o
+                0x0000000010001c20                HAL_IPCC_GetChannelStatus
  .text.HAL_IPCC_NotifyCPU
-                0x0000000010001c38       0x8c ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_ipcc.o
-                0x0000000010001c38                HAL_IPCC_NotifyCPU
+                0x0000000010001c88       0x8c ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_ipcc.o
+                0x0000000010001c88                HAL_IPCC_NotifyCPU
  .text.HAL_IPCC_RX_IRQHandler
-                0x0000000010001cc4       0x98 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_ipcc.o
-                0x0000000010001cc4                HAL_IPCC_RX_IRQHandler
+                0x0000000010001d14       0x98 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_ipcc.o
+                0x0000000010001d14                HAL_IPCC_RX_IRQHandler
  .text.HAL_IPCC_RxCallback
-                0x0000000010001d5c       0x1a ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_ipcc.o
-                0x0000000010001d5c                HAL_IPCC_RxCallback
+                0x0000000010001dac       0x1a ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_ipcc.o
+                0x0000000010001dac                HAL_IPCC_RxCallback
  .text.HAL_IPCC_TxCallback
-                0x0000000010001d76       0x1a ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_ipcc.o
-                0x0000000010001d76                HAL_IPCC_TxCallback
+                0x0000000010001dc6       0x1a ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_ipcc.o
+                0x0000000010001dc6                HAL_IPCC_TxCallback
  .text.IPCC_UnmaskInterrupt
-                0x0000000010001d90       0x5c ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_ipcc.o
-                0x0000000010001d90                IPCC_UnmaskInterrupt
+                0x0000000010001de0       0x5c ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_ipcc.o
+                0x0000000010001de0                IPCC_UnmaskInterrupt
  .text.IPCC_SetDefaultCallbacks
-                0x0000000010001dec       0x4c ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_ipcc.o
-                0x0000000010001dec                IPCC_SetDefaultCallbacks
+                0x0000000010001e3c       0x4c ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_ipcc.o
+                0x0000000010001e3c                IPCC_SetDefaultCallbacks
  .text.IPCC_Reset_Register
-                0x0000000010001e38       0x28 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_ipcc.o
-                0x0000000010001e38                IPCC_Reset_Register
+                0x0000000010001e88       0x28 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_ipcc.o
+                0x0000000010001e88                IPCC_Reset_Register
  .text.HAL_PWR_EnableBkUpAccess
-                0x0000000010001e60       0x20 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_pwr.o
-                0x0000000010001e60                HAL_PWR_EnableBkUpAccess
+                0x0000000010001eb0       0x20 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_pwr.o
+                0x0000000010001eb0                HAL_PWR_EnableBkUpAccess
  .text.HAL_RCC_OscConfig
-                0x0000000010001e80      0x664 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_rcc.o
-                0x0000000010001e80                HAL_RCC_OscConfig
+                0x0000000010001ed0      0x664 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_rcc.o
+                0x0000000010001ed0                HAL_RCC_OscConfig
  .text.HAL_RCC_HSEConfig
-                0x00000000100024e4       0xd6 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_rcc.o
-                0x00000000100024e4                HAL_RCC_HSEConfig
+                0x0000000010002534       0xd6 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_rcc.o
+                0x0000000010002534                HAL_RCC_HSEConfig
  .text.HAL_RCC_LSEConfig
-                0x00000000100025ba       0xfa ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_rcc.o
-                0x00000000100025ba                HAL_RCC_LSEConfig
+                0x000000001000260a       0xfa ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_rcc.o
+                0x000000001000260a                HAL_RCC_LSEConfig
  .text.RCC_PLL1_Config
-                0x00000000100026b4      0x308 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_rcc.o
-                0x00000000100026b4                RCC_PLL1_Config
+                0x0000000010002704      0x308 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_rcc.o
+                0x0000000010002704                RCC_PLL1_Config
  .text.HAL_RCC_ClockConfig
-                0x00000000100029bc      0x224 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_rcc.o
-                0x00000000100029bc                HAL_RCC_ClockConfig
+                0x0000000010002a0c      0x224 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_rcc.o
+                0x0000000010002a0c                HAL_RCC_ClockConfig
  .text.RCC_MPUConfig
-                0x0000000010002be0       0xec ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_rcc.o
-                0x0000000010002be0                RCC_MPUConfig
+                0x0000000010002c30       0xec ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_rcc.o
+                0x0000000010002c30                RCC_MPUConfig
  .text.RCC_AXISSConfig
-                0x0000000010002ccc      0x12e ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_rcc.o
-                0x0000000010002ccc                RCC_AXISSConfig
- *fill*         0x0000000010002dfa        0x2 
+                0x0000000010002d1c      0x12e ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_rcc.o
+                0x0000000010002d1c                RCC_AXISSConfig
+ *fill*         0x0000000010002e4a        0x2 
  .text.RCC_MCUConfig
-                0x0000000010002dfc      0x150 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_rcc.o
-                0x0000000010002dfc                RCC_MCUConfig
+                0x0000000010002e4c      0x150 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_rcc.o
+                0x0000000010002e4c                RCC_MCUConfig
  .text.HAL_RCC_GetPLL3ClockFreq
-                0x0000000010002f4c      0x1f4 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_rcc.o
-                0x0000000010002f4c                HAL_RCC_GetPLL3ClockFreq
+                0x0000000010002f9c      0x1f4 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_rcc.o
+                0x0000000010002f9c                HAL_RCC_GetPLL3ClockFreq
  .text.HAL_RCC_GetMCUFreq
-                0x0000000010003140       0x36 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_rcc.o
-                0x0000000010003140                HAL_RCC_GetMCUFreq
+                0x0000000010003190       0x36 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_rcc.o
+                0x0000000010003190                HAL_RCC_GetMCUFreq
  .text.HAL_RCC_GetSystemCoreClockFreq
-                0x0000000010003176        0xe ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_rcc.o
-                0x0000000010003176                HAL_RCC_GetSystemCoreClockFreq
+                0x00000000100031c6        0xe ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_rcc.o
+                0x00000000100031c6                HAL_RCC_GetSystemCoreClockFreq
  .text.HAL_RCC_GetMCUSSFreq
-                0x0000000010003184       0x74 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_rcc.o
-                0x0000000010003184                HAL_RCC_GetMCUSSFreq
+                0x00000000100031d4       0x74 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_rcc.o
+                0x00000000100031d4                HAL_RCC_GetMCUSSFreq
  .text.RCCEx_PLL2_Config
-                0x00000000100031f8      0x304 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_rcc_ex.o
-                0x00000000100031f8                RCCEx_PLL2_Config
+                0x0000000010003248      0x304 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_rcc_ex.o
+                0x0000000010003248                RCCEx_PLL2_Config
  .text.RCCEx_PLL3_Config
-                0x00000000100034fc      0x2d4 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_rcc_ex.o
-                0x00000000100034fc                RCCEx_PLL3_Config
+                0x000000001000354c      0x2d4 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_rcc_ex.o
+                0x000000001000354c                RCCEx_PLL3_Config
  .text.RCCEx_PLL4_Config
-                0x00000000100037d0      0x2b0 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_rcc_ex.o
-                0x00000000100037d0                RCCEx_PLL4_Config
+                0x0000000010003820      0x2b0 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_rcc_ex.o
+                0x0000000010003820                RCCEx_PLL4_Config
  .text.metal_list_init
-                0x0000000010003a80       0x20 ./Middlewares/OpenAMP/libmetal/device.o
+                0x0000000010003ad0       0x20 ./Middlewares/OpenAMP/libmetal/device.o
  .text.metal_list_add_before
-                0x0000000010003aa0       0x34 ./Middlewares/OpenAMP/libmetal/device.o
+                0x0000000010003af0       0x34 ./Middlewares/OpenAMP/libmetal/device.o
  .text.metal_list_add_tail
-                0x0000000010003ad4       0x1a ./Middlewares/OpenAMP/libmetal/device.o
+                0x0000000010003b24       0x1a ./Middlewares/OpenAMP/libmetal/device.o
  .text.__metal_cache_flush
-                0x0000000010003aee       0x1a ./Middlewares/OpenAMP/libmetal/device.o
+                0x0000000010003b3e       0x1a ./Middlewares/OpenAMP/libmetal/device.o
  .text.__metal_cache_invalidate
-                0x0000000010003b08       0x1a ./Middlewares/OpenAMP/libmetal/device.o
+                0x0000000010003b58       0x1a ./Middlewares/OpenAMP/libmetal/device.o
  .text.metal_cache_flush
-                0x0000000010003b22       0x1a ./Middlewares/OpenAMP/libmetal/device.o
+                0x0000000010003b72       0x1a ./Middlewares/OpenAMP/libmetal/device.o
  .text.metal_cache_invalidate
-                0x0000000010003b3c       0x1a ./Middlewares/OpenAMP/libmetal/device.o
- *fill*         0x0000000010003b56        0x2 
+                0x0000000010003b8c       0x1a ./Middlewares/OpenAMP/libmetal/device.o
+ *fill*         0x0000000010003ba6        0x2 
  .text.metal_bus_register
-                0x0000000010003b58       0x88 ./Middlewares/OpenAMP/libmetal/device.o
-                0x0000000010003b58                metal_bus_register
+                0x0000000010003ba8       0x88 ./Middlewares/OpenAMP/libmetal/device.o
+                0x0000000010003ba8                metal_bus_register
  .text.metal_bus_find
-                0x0000000010003be0       0x5c ./Middlewares/OpenAMP/libmetal/device.o
-                0x0000000010003be0                metal_bus_find
+                0x0000000010003c30       0x5c ./Middlewares/OpenAMP/libmetal/device.o
+                0x0000000010003c30                metal_bus_find
  .text.metal_device_open
-                0x0000000010003c3c       0x7c ./Middlewares/OpenAMP/libmetal/device.o
-                0x0000000010003c3c                metal_device_open
+                0x0000000010003c8c       0x7c ./Middlewares/OpenAMP/libmetal/device.o
+                0x0000000010003c8c                metal_device_open
  .text.metal_register_generic_device
-                0x0000000010003cb8       0x4c ./Middlewares/OpenAMP/libmetal/device.o
-                0x0000000010003cb8                metal_register_generic_device
+                0x0000000010003d08       0x4c ./Middlewares/OpenAMP/libmetal/device.o
+                0x0000000010003d08                metal_register_generic_device
  .text.metal_generic_dev_open
-                0x0000000010003d04       0x60 ./Middlewares/OpenAMP/libmetal/device.o
-                0x0000000010003d04                metal_generic_dev_open
+                0x0000000010003d54       0x60 ./Middlewares/OpenAMP/libmetal/device.o
+                0x0000000010003d54                metal_generic_dev_open
  .text.metal_generic_dev_dma_map
-                0x0000000010003d64       0xa2 ./Middlewares/OpenAMP/libmetal/device.o
-                0x0000000010003d64                metal_generic_dev_dma_map
+                0x0000000010003db4       0xa2 ./Middlewares/OpenAMP/libmetal/device.o
+                0x0000000010003db4                metal_generic_dev_dma_map
  .text.metal_generic_dev_dma_unmap
-                0x0000000010003e06       0x56 ./Middlewares/OpenAMP/libmetal/device.o
-                0x0000000010003e06                metal_generic_dev_dma_unmap
+                0x0000000010003e56       0x56 ./Middlewares/OpenAMP/libmetal/device.o
+                0x0000000010003e56                metal_generic_dev_dma_unmap
  .text.metal_list_init
-                0x0000000010003e5c       0x20 ./Middlewares/OpenAMP/libmetal/init.o
+                0x0000000010003eac       0x20 ./Middlewares/OpenAMP/libmetal/init.o
  .text.metal_init
-                0x0000000010003e7c       0x64 ./Middlewares/OpenAMP/libmetal/init.o
-                0x0000000010003e7c                metal_init
+                0x0000000010003ecc       0x64 ./Middlewares/OpenAMP/libmetal/init.o
+                0x0000000010003ecc                metal_init
  .text.metal_io_virt
-                0x0000000010003ee0       0x38 ./Middlewares/OpenAMP/libmetal/io.o
+                0x0000000010003f30       0x38 ./Middlewares/OpenAMP/libmetal/io.o
  .text.metal_io_init
-                0x0000000010003f18       0x9a ./Middlewares/OpenAMP/libmetal/io.o
-                0x0000000010003f18                metal_io_init
+                0x0000000010003f68       0x9a ./Middlewares/OpenAMP/libmetal/io.o
+                0x0000000010003f68                metal_io_init
  .text.metal_io_block_read
-                0x0000000010003fb2       0xea ./Middlewares/OpenAMP/libmetal/io.o
-                0x0000000010003fb2                metal_io_block_read
+                0x0000000010004002       0xea ./Middlewares/OpenAMP/libmetal/io.o
+                0x0000000010004002                metal_io_block_read
  .text.metal_io_block_write
-                0x000000001000409c       0xe8 ./Middlewares/OpenAMP/libmetal/io.o
-                0x000000001000409c                metal_io_block_write
+                0x00000000100040ec       0xe8 ./Middlewares/OpenAMP/libmetal/io.o
+                0x00000000100040ec                metal_io_block_write
  .text.metal_default_log_handler
-                0x0000000010004184       0x1a ./Middlewares/OpenAMP/libmetal/log.o
-                0x0000000010004184                metal_default_log_handler
+                0x00000000100041d4       0x1a ./Middlewares/OpenAMP/libmetal/log.o
+                0x00000000100041d4                metal_default_log_handler
  .text.metal_generic_dev_sys_open
-                0x000000001000419e       0x4e ./Middlewares/OpenAMP/libmetal/generic/generic_device.o
-                0x000000001000419e                metal_generic_dev_sys_open
+                0x00000000100041ee       0x4e ./Middlewares/OpenAMP/libmetal/generic/generic_device.o
+                0x00000000100041ee                metal_generic_dev_sys_open
  .text.metal_sys_init
-                0x00000000100041ec       0x1c ./Middlewares/OpenAMP/libmetal/generic/generic_init.o
-                0x00000000100041ec                metal_sys_init
+                0x000000001000423c       0x1c ./Middlewares/OpenAMP/libmetal/generic/generic_init.o
+                0x000000001000423c                metal_sys_init
  .text.metal_sys_io_mem_map
-                0x0000000010004208       0x7c ./Middlewares/OpenAMP/libmetal/generic/generic_io.o
-                0x0000000010004208                metal_sys_io_mem_map
+                0x0000000010004258       0x7c ./Middlewares/OpenAMP/libmetal/generic/generic_io.o
+                0x0000000010004258                metal_sys_io_mem_map
  .text.metal_machine_cache_flush
-                0x0000000010004284       0x16 ./Middlewares/OpenAMP/libmetal/generic/template/sys.o
-                0x0000000010004284                metal_machine_cache_flush
+                0x00000000100042d4       0x16 ./Middlewares/OpenAMP/libmetal/generic/template/sys.o
+                0x00000000100042d4                metal_machine_cache_flush
  .text.metal_machine_cache_invalidate
-                0x000000001000429a       0x16 ./Middlewares/OpenAMP/libmetal/generic/template/sys.o
-                0x000000001000429a                metal_machine_cache_invalidate
+                0x00000000100042ea       0x16 ./Middlewares/OpenAMP/libmetal/generic/template/sys.o
+                0x00000000100042ea                metal_machine_cache_invalidate
  .text.metal_machine_io_mem_map
-                0x00000000100042b0       0x1c ./Middlewares/OpenAMP/libmetal/generic/template/sys.o
-                0x00000000100042b0                metal_machine_io_mem_map
+                0x0000000010004300       0x1c ./Middlewares/OpenAMP/libmetal/generic/template/sys.o
+                0x0000000010004300                metal_machine_io_mem_map
  .text.metal_io_virt
-                0x00000000100042cc       0x38 ./Middlewares/OpenAMP/open-amp/remoteproc/remoteproc_virtio.o
+                0x000000001000431c       0x38 ./Middlewares/OpenAMP/open-amp/remoteproc/remoteproc_virtio.o
  .text.metal_io_virt_to_offset
-                0x0000000010004304       0x32 ./Middlewares/OpenAMP/open-amp/remoteproc/remoteproc_virtio.o
- *fill*         0x0000000010004336        0x2 
+                0x0000000010004354       0x32 ./Middlewares/OpenAMP/open-amp/remoteproc/remoteproc_virtio.o
+ *fill*         0x0000000010004386        0x2 
  .text.metal_io_read
-                0x0000000010004338      0x104 ./Middlewares/OpenAMP/open-amp/remoteproc/remoteproc_virtio.o
+                0x0000000010004388      0x104 ./Middlewares/OpenAMP/open-amp/remoteproc/remoteproc_virtio.o
  .text.metal_allocate_memory
-                0x000000001000443c       0x18 ./Middlewares/OpenAMP/open-amp/remoteproc/remoteproc_virtio.o
+                0x000000001000448c       0x18 ./Middlewares/OpenAMP/open-amp/remoteproc/remoteproc_virtio.o
  .text.metal_free_memory
-                0x0000000010004454       0x16 ./Middlewares/OpenAMP/open-amp/remoteproc/remoteproc_virtio.o
+                0x00000000100044a4       0x16 ./Middlewares/OpenAMP/open-amp/remoteproc/remoteproc_virtio.o
  .text.virtqueue_allocate
-                0x000000001000446a       0x32 ./Middlewares/OpenAMP/open-amp/remoteproc/remoteproc_virtio.o
+                0x00000000100044ba       0x32 ./Middlewares/OpenAMP/open-amp/remoteproc/remoteproc_virtio.o
  .text.rproc_virtio_virtqueue_notify
-                0x000000001000449c       0x68 ./Middlewares/OpenAMP/open-amp/remoteproc/remoteproc_virtio.o
+                0x00000000100044ec       0x68 ./Middlewares/OpenAMP/open-amp/remoteproc/remoteproc_virtio.o
  .text.rproc_virtio_get_status
-                0x0000000010004504       0x44 ./Middlewares/OpenAMP/open-amp/remoteproc/remoteproc_virtio.o
+                0x0000000010004554       0x44 ./Middlewares/OpenAMP/open-amp/remoteproc/remoteproc_virtio.o
  .text.rproc_virtio_get_dfeatures
-                0x0000000010004548       0x44 ./Middlewares/OpenAMP/open-amp/remoteproc/remoteproc_virtio.o
+                0x0000000010004598       0x44 ./Middlewares/OpenAMP/open-amp/remoteproc/remoteproc_virtio.o
  .text.rproc_virtio_get_features
-                0x000000001000458c       0x50 ./Middlewares/OpenAMP/open-amp/remoteproc/remoteproc_virtio.o
+                0x00000000100045dc       0x50 ./Middlewares/OpenAMP/open-amp/remoteproc/remoteproc_virtio.o
  .text.rproc_virtio_read_config
-                0x00000000100045dc       0x66 ./Middlewares/OpenAMP/open-amp/remoteproc/remoteproc_virtio.o
- *fill*         0x0000000010004642        0x2 
+                0x000000001000462c       0x66 ./Middlewares/OpenAMP/open-amp/remoteproc/remoteproc_virtio.o
+ *fill*         0x0000000010004692        0x2 
  .text.rproc_virtio_create_vdev
-                0x0000000010004644      0x15c ./Middlewares/OpenAMP/open-amp/remoteproc/remoteproc_virtio.o
-                0x0000000010004644                rproc_virtio_create_vdev
+                0x0000000010004694      0x15c ./Middlewares/OpenAMP/open-amp/remoteproc/remoteproc_virtio.o
+                0x0000000010004694                rproc_virtio_create_vdev
  .text.rproc_virtio_init_vring
-                0x00000000100047a0       0x62 ./Middlewares/OpenAMP/open-amp/remoteproc/remoteproc_virtio.o
-                0x00000000100047a0                rproc_virtio_init_vring
+                0x00000000100047f0       0x62 ./Middlewares/OpenAMP/open-amp/remoteproc/remoteproc_virtio.o
+                0x00000000100047f0                rproc_virtio_init_vring
  .text.rproc_virtio_notified
-                0x0000000010004802       0x78 ./Middlewares/OpenAMP/open-amp/remoteproc/remoteproc_virtio.o
-                0x0000000010004802                rproc_virtio_notified
+                0x0000000010004852       0x78 ./Middlewares/OpenAMP/open-amp/remoteproc/remoteproc_virtio.o
+                0x0000000010004852                rproc_virtio_notified
  .text.rproc_virtio_wait_remote_ready
-                0x000000001000487a       0x32 ./Middlewares/OpenAMP/open-amp/remoteproc/remoteproc_virtio.o
-                0x000000001000487a                rproc_virtio_wait_remote_ready
+                0x00000000100048ca       0x32 ./Middlewares/OpenAMP/open-amp/remoteproc/remoteproc_virtio.o
+                0x00000000100048ca                rproc_virtio_wait_remote_ready
  .text.__metal_mutex_acquire
-                0x00000000100048ac       0x5e ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg.o
+                0x00000000100048fc       0x5e ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg.o
  .text.__metal_mutex_release
-                0x000000001000490a       0x2c ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg.o
+                0x000000001000495a       0x2c ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg.o
  .text.metal_mutex_acquire
-                0x0000000010004936       0x16 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg.o
+                0x0000000010004986       0x16 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg.o
  .text.metal_mutex_release
-                0x000000001000494c       0x16 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg.o
+                0x000000001000499c       0x16 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg.o
  .text.metal_list_add_before
-                0x0000000010004962       0x34 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg.o
+                0x00000000100049b2       0x34 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg.o
  .text.metal_list_add_tail
-                0x0000000010004996       0x1a ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg.o
+                0x00000000100049e6       0x1a ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg.o
  .text.metal_list_del
-                0x00000000100049b0       0x34 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg.o
+                0x0000000010004a00       0x34 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg.o
  .text.metal_bitmap_set_bit
-                0x00000000100049e4       0x38 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg.o
+                0x0000000010004a34       0x38 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg.o
  .text.metal_bitmap_is_bit_set
-                0x0000000010004a1c       0x3a ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg.o
+                0x0000000010004a6c       0x3a ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg.o
  .text.metal_bitmap_clear_bit
-                0x0000000010004a56       0x3a ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg.o
+                0x0000000010004aa6       0x3a ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg.o
  .text.metal_bitmap_is_bit_clear
-                0x0000000010004a90       0x26 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg.o
+                0x0000000010004ae0       0x26 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg.o
  .text.metal_bitmap_next_clear_bit
-                0x0000000010004ab6       0x3a ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg.o
+                0x0000000010004b06       0x3a ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg.o
  .text.rpmsg_initialize_ept
-                0x0000000010004af0       0x48 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg.o
+                0x0000000010004b40       0x48 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg.o
  .text.rpmsg_get_address
-                0x0000000010004b38       0x42 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg.o
+                0x0000000010004b88       0x42 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg.o
  .text.rpmsg_release_address
-                0x0000000010004b7a       0x32 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg.o
+                0x0000000010004bca       0x32 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg.o
  .text.rpmsg_is_address_set
-                0x0000000010004bac       0x3c ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg.o
+                0x0000000010004bfc       0x3c ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg.o
  .text.rpmsg_set_address
-                0x0000000010004be8       0x3c ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg.o
+                0x0000000010004c38       0x3c ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg.o
  .text.rpmsg_send_offchannel_raw
-                0x0000000010004c24       0x64 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg.o
-                0x0000000010004c24                rpmsg_send_offchannel_raw
+                0x0000000010004c74       0x64 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg.o
+                0x0000000010004c74                rpmsg_send_offchannel_raw
  .text.rpmsg_send_ns_message
-                0x0000000010004c88       0x50 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg.o
-                0x0000000010004c88                rpmsg_send_ns_message
+                0x0000000010004cd8       0x50 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg.o
+                0x0000000010004cd8                rpmsg_send_ns_message
  .text.rpmsg_get_endpoint
-                0x0000000010004cd8       0xc0 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg.o
-                0x0000000010004cd8                rpmsg_get_endpoint
+                0x0000000010004d28       0xc0 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg.o
+                0x0000000010004d28                rpmsg_get_endpoint
  .text.rpmsg_unregister_endpoint
-                0x0000000010004d98       0x56 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg.o
+                0x0000000010004de8       0x56 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg.o
  .text.rpmsg_register_endpoint
-                0x0000000010004dee       0x26 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg.o
-                0x0000000010004dee                rpmsg_register_endpoint
+                0x0000000010004e3e       0x26 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg.o
+                0x0000000010004e3e                rpmsg_register_endpoint
  .text.rpmsg_create_ept
-                0x0000000010004e14      0x104 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg.o
-                0x0000000010004e14                rpmsg_create_ept
+                0x0000000010004e64      0x104 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg.o
+                0x0000000010004e64                rpmsg_create_ept
  .text.__metal_sleep_usec
-                0x0000000010004f18       0x16 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
+                0x0000000010004f68       0x16 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
  .text.metal_sleep_usec
-                0x0000000010004f2e       0x18 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
+                0x0000000010004f7e       0x18 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
  .text.metal_list_init
-                0x0000000010004f46       0x20 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
+                0x0000000010004f96       0x20 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
  .text.metal_io_virt_to_offset
-                0x0000000010004f66       0x32 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
+                0x0000000010004fb6       0x32 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
  .text.__metal_mutex_init
-                0x0000000010004f98       0x2c ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
+                0x0000000010004fe8       0x2c ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
  .text.__metal_mutex_acquire
-                0x0000000010004fc4       0x5e ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
+                0x0000000010005014       0x5e ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
  .text.__metal_mutex_release
-                0x0000000010005022       0x2c ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
+                0x0000000010005072       0x2c ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
  .text.metal_mutex_init
-                0x000000001000504e       0x16 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
+                0x000000001000509e       0x16 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
  .text.metal_mutex_acquire
-                0x0000000010005064       0x16 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
+                0x00000000100050b4       0x16 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
  .text.metal_mutex_release
-                0x000000001000507a       0x16 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
+                0x00000000100050ca       0x16 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
  .text.rpmsg_virtio_get_role
-                0x0000000010005090       0x1a ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
+                0x00000000100050e0       0x1a ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
  .text.rpmsg_virtio_set_status
-                0x00000000100050aa       0x26 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
+                0x00000000100050fa       0x26 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
  .text.rpmsg_virtio_get_status
-                0x00000000100050d0       0x22 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
+                0x0000000010005120       0x22 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
  .text.rpmsg_virtio_get_features
-                0x00000000100050f2       0x22 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
+                0x0000000010005142       0x22 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
  .text.rpmsg_virtio_create_virtqueues
-                0x0000000010005114       0x2a ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
- *fill*         0x000000001000513e        0x2 
+                0x0000000010005164       0x2a ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
+ *fill*         0x000000001000518e        0x2 
  .text.rpmsg_initialize_ept
-                0x0000000010005140       0x48 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
+                0x0000000010005190       0x48 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
  .text.rpmsg_get_ept_from_addr
-                0x0000000010005188       0x22 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
+                0x00000000100051d8       0x22 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
  .text.rpmsg_virtio_init_shm_pool
-                0x00000000100051aa       0x32 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
-                0x00000000100051aa                rpmsg_virtio_init_shm_pool
+                0x00000000100051fa       0x32 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
+                0x00000000100051fa                rpmsg_virtio_init_shm_pool
  .text.rpmsg_virtio_return_buffer
-                0x00000000100051dc       0x32 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
+                0x000000001000522c       0x32 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
  .text.rpmsg_virtio_enqueue_buffer
-                0x000000001000520e       0x3a ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
+                0x000000001000525e       0x3a ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
  .text.rpmsg_virtio_get_tx_buffer
-                0x0000000010005248       0x3a ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
+                0x0000000010005298       0x3a ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
  .text.rpmsg_virtio_get_rx_buffer
-                0x0000000010005282       0x38 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
+                0x00000000100052d2       0x38 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
  .text.rpmsg_virtio_wait_remote_ready
-                0x00000000100052ba       0x3a ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
+                0x000000001000530a       0x3a ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
  .text.rpmsg_virtio_hold_rx_buffer
-                0x00000000100052f4       0x28 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
+                0x0000000010005344       0x28 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
  .text.rpmsg_virtio_release_rx_buffer
-                0x000000001000531c       0x52 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
+                0x000000001000536c       0x52 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
  .text.rpmsg_virtio_get_tx_payload_buffer
-                0x000000001000536e       0xa4 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
- *fill*         0x0000000010005412        0x2 
+                0x00000000100053be       0xa4 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
+ *fill*         0x0000000010005462        0x2 
  .text.rpmsg_virtio_send_offchannel_nocopy
-                0x0000000010005414       0xd8 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
+                0x0000000010005464       0xd8 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
  .text.rpmsg_virtio_send_offchannel_raw
-                0x00000000100054ec       0x98 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
+                0x000000001000553c       0x98 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
  .text.rpmsg_virtio_tx_callback
-                0x0000000010005584       0x14 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
+                0x00000000100055d4       0x14 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
  .text.rpmsg_virtio_rx_callback
-                0x0000000010005598      0x124 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
+                0x00000000100055e8      0x124 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
  .text.rpmsg_virtio_ns_callback
-                0x00000000100056bc       0xe6 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
- *fill*         0x00000000100057a2        0x2 
+                0x000000001000570c       0xe6 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
+ *fill*         0x00000000100057f2        0x2 
  .text.rpmsg_init_vdev
-                0x00000000100057a4      0x1a0 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
-                0x00000000100057a4                rpmsg_init_vdev
+                0x00000000100057f4      0x1a0 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
+                0x00000000100057f4                rpmsg_init_vdev
  .text.virtio_create_virtqueues
-                0x0000000010005944       0x9c ./Middlewares/OpenAMP/open-amp/virtio/virtio.o
-                0x0000000010005944                virtio_create_virtqueues
+                0x0000000010005994       0x9c ./Middlewares/OpenAMP/open-amp/virtio/virtio.o
+                0x0000000010005994                virtio_create_virtqueues
  .text.vring_init
-                0x00000000100059e0       0x52 ./Middlewares/OpenAMP/open-amp/virtio/virtqueue.o
+                0x0000000010005a30       0x52 ./Middlewares/OpenAMP/open-amp/virtio/virtqueue.o
  .text.vring_need_event
-                0x0000000010005a32       0x3c ./Middlewares/OpenAMP/open-amp/virtio/virtqueue.o
+                0x0000000010005a82       0x3c ./Middlewares/OpenAMP/open-amp/virtio/virtqueue.o
  .text.metal_io_virt
-                0x0000000010005a6e       0x38 ./Middlewares/OpenAMP/open-amp/virtio/virtqueue.o
+                0x0000000010005abe       0x38 ./Middlewares/OpenAMP/open-amp/virtio/virtqueue.o
  .text.metal_io_phys
-                0x0000000010005aa6       0x6e ./Middlewares/OpenAMP/open-amp/virtio/virtqueue.o
+                0x0000000010005af6       0x6e ./Middlewares/OpenAMP/open-amp/virtio/virtqueue.o
  .text.metal_io_phys_to_offset
-                0x0000000010005b14       0x76 ./Middlewares/OpenAMP/open-amp/virtio/virtqueue.o
+                0x0000000010005b64       0x76 ./Middlewares/OpenAMP/open-amp/virtio/virtqueue.o
  .text.metal_io_phys_to_virt
-                0x0000000010005b8a       0x26 ./Middlewares/OpenAMP/open-amp/virtio/virtqueue.o
+                0x0000000010005bda       0x26 ./Middlewares/OpenAMP/open-amp/virtio/virtqueue.o
  .text.virtqueue_phys_to_virt
-                0x0000000010005bb0       0x22 ./Middlewares/OpenAMP/open-amp/virtio/virtqueue.o
+                0x0000000010005c00       0x22 ./Middlewares/OpenAMP/open-amp/virtio/virtqueue.o
  .text.virtqueue_create
-                0x0000000010005bd2       0x62 ./Middlewares/OpenAMP/open-amp/virtio/virtqueue.o
-                0x0000000010005bd2                virtqueue_create
+                0x0000000010005c22       0x62 ./Middlewares/OpenAMP/open-amp/virtio/virtqueue.o
+                0x0000000010005c22                virtqueue_create
  .text.virtqueue_get_buffer_length
-                0x0000000010005c34       0x24 ./Middlewares/OpenAMP/open-amp/virtio/virtqueue.o
-                0x0000000010005c34                virtqueue_get_buffer_length
+                0x0000000010005c84       0x24 ./Middlewares/OpenAMP/open-amp/virtio/virtqueue.o
+                0x0000000010005c84                virtqueue_get_buffer_length
  .text.virtqueue_get_available_buffer
-                0x0000000010005c58       0x90 ./Middlewares/OpenAMP/open-amp/virtio/virtqueue.o
-                0x0000000010005c58                virtqueue_get_available_buffer
+                0x0000000010005ca8       0x90 ./Middlewares/OpenAMP/open-amp/virtio/virtqueue.o
+                0x0000000010005ca8                virtqueue_get_available_buffer
  .text.virtqueue_add_consumed_buffer
-                0x0000000010005ce8       0x84 ./Middlewares/OpenAMP/open-amp/virtio/virtqueue.o
-                0x0000000010005ce8                virtqueue_add_consumed_buffer
+                0x0000000010005d38       0x84 ./Middlewares/OpenAMP/open-amp/virtio/virtqueue.o
+                0x0000000010005d38                virtqueue_add_consumed_buffer
  .text.virtqueue_disable_cb
-                0x0000000010005d6c       0x70 ./Middlewares/OpenAMP/open-amp/virtio/virtqueue.o
-                0x0000000010005d6c                virtqueue_disable_cb
+                0x0000000010005dbc       0x70 ./Middlewares/OpenAMP/open-amp/virtio/virtqueue.o
+                0x0000000010005dbc                virtqueue_disable_cb
  .text.virtqueue_kick
-                0x0000000010005ddc       0x2c ./Middlewares/OpenAMP/open-amp/virtio/virtqueue.o
-                0x0000000010005ddc                virtqueue_kick
+                0x0000000010005e2c       0x2c ./Middlewares/OpenAMP/open-amp/virtio/virtqueue.o
+                0x0000000010005e2c                virtqueue_kick
  .text.vq_ring_init
-                0x0000000010005e08       0x2c ./Middlewares/OpenAMP/open-amp/virtio/virtqueue.o
+                0x0000000010005e58       0x2c ./Middlewares/OpenAMP/open-amp/virtio/virtqueue.o
  .text.virtqueue_notification
-                0x0000000010005e34       0x24 ./Middlewares/OpenAMP/open-amp/virtio/virtqueue.o
-                0x0000000010005e34                virtqueue_notification
+                0x0000000010005e84       0x24 ./Middlewares/OpenAMP/open-amp/virtio/virtqueue.o
+                0x0000000010005e84                virtqueue_notification
  .text.vq_ring_must_notify
-                0x0000000010005e58       0x9c ./Middlewares/OpenAMP/open-amp/virtio/virtqueue.o
+                0x0000000010005ea8       0x9c ./Middlewares/OpenAMP/open-amp/virtio/virtqueue.o
  .text.vq_ring_notify
-                0x0000000010005ef4       0x20 ./Middlewares/OpenAMP/open-amp/virtio/virtqueue.o
+                0x0000000010005f44       0x20 ./Middlewares/OpenAMP/open-amp/virtio/virtqueue.o
  .text.rpmsg_send
-                0x0000000010005f14       0x2e ./Middlewares/OpenAMP/virtual_driver/virt_uart.o
+                0x0000000010005f64       0x2e ./Middlewares/OpenAMP/virtual_driver/virt_uart.o
  .text.VIRT_UART_read_cb
-                0x0000000010005f42       0x3c ./Middlewares/OpenAMP/virtual_driver/virt_uart.o
- *fill*         0x0000000010005f7e        0x2 
+                0x0000000010005f92       0x3c ./Middlewares/OpenAMP/virtual_driver/virt_uart.o
+ *fill*         0x0000000010005fce        0x2 
  .text.VIRT_UART_Init
-                0x0000000010005f80       0x38 ./Middlewares/OpenAMP/virtual_driver/virt_uart.o
-                0x0000000010005f80                VIRT_UART_Init
+                0x0000000010005fd0       0x38 ./Middlewares/OpenAMP/virtual_driver/virt_uart.o
+                0x0000000010005fd0                VIRT_UART_Init
  .text.VIRT_UART_RegisterCallback
-                0x0000000010005fb8       0x34 ./Middlewares/OpenAMP/virtual_driver/virt_uart.o
-                0x0000000010005fb8                VIRT_UART_RegisterCallback
+                0x0000000010006008       0x34 ./Middlewares/OpenAMP/virtual_driver/virt_uart.o
+                0x0000000010006008                VIRT_UART_RegisterCallback
  .text.VIRT_UART_Transmit
-                0x0000000010005fec       0x3c ./Middlewares/OpenAMP/virtual_driver/virt_uart.o
-                0x0000000010005fec                VIRT_UART_Transmit
+                0x000000001000603c       0x3c ./Middlewares/OpenAMP/virtual_driver/virt_uart.o
+                0x000000001000603c                VIRT_UART_Transmit
  .text.__assert_func
-                0x0000000010006028       0x3c /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-assert.o)
-                0x0000000010006028                __assert_func
- .text.malloc   0x0000000010006064       0x10 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-malloc.o)
-                0x0000000010006064                malloc
- .text.free     0x0000000010006074       0x10 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-malloc.o)
-                0x0000000010006074                free
+                0x0000000010006078       0x3c /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-assert.o)
+                0x0000000010006078                __assert_func
+ .text.malloc   0x00000000100060b4       0x10 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-malloc.o)
+                0x00000000100060b4                malloc
+ .text.free     0x00000000100060c4       0x10 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-malloc.o)
+                0x00000000100060c4                free
  .text.sbrk_aligned
-                0x0000000010006084       0x40 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mallocr.o)
+                0x00000000100060d4       0x40 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mallocr.o)
  .text._malloc_r
-                0x00000000100060c4      0x100 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mallocr.o)
-                0x00000000100060c4                _malloc_r
+                0x0000000010006114      0x100 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mallocr.o)
+                0x0000000010006114                _malloc_r
  .text.__malloc_lock
-                0x00000000100061c4        0xc /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mlock.o)
-                0x00000000100061c4                __malloc_lock
+                0x0000000010006214        0xc /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mlock.o)
+                0x0000000010006214                __malloc_lock
  .text.__malloc_unlock
-                0x00000000100061d0        0xc /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mlock.o)
-                0x00000000100061d0                __malloc_unlock
- .text.std      0x00000000100061dc       0x48 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
+                0x0000000010006220        0xc /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-mlock.o)
+                0x0000000010006220                __malloc_unlock
+ .text.std      0x000000001000622c       0x48 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
  .text.stdio_exit_handler
-                0x0000000010006224       0x18 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
+                0x0000000010006274       0x18 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
  .text.cleanup_stdio
-                0x000000001000623c       0x40 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
+                0x000000001000628c       0x40 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
  .text.global_stdio_init.part.0
-                0x000000001000627c       0x3c /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
+                0x00000000100062cc       0x3c /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
  .text.__sfp_lock_acquire
-                0x00000000100062b8        0xc /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
-                0x00000000100062b8                __sfp_lock_acquire
+                0x0000000010006308        0xc /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
+                0x0000000010006308                __sfp_lock_acquire
  .text.__sfp_lock_release
-                0x00000000100062c4        0xc /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
-                0x00000000100062c4                __sfp_lock_release
- .text.__sinit  0x00000000100062d0       0x30 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
-                0x00000000100062d0                __sinit
- .text.fprintf  0x0000000010006300       0x24 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-fprintf.o)
-                0x0000000010006300                fprintf
-                0x0000000010006300                fiprintf
+                0x0000000010006314        0xc /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
+                0x0000000010006314                __sfp_lock_release
+ .text.__sinit  0x0000000010006320       0x30 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-findfp.o)
+                0x0000000010006320                __sinit
+ .text.fprintf  0x0000000010006350       0x24 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-fprintf.o)
+                0x0000000010006350                fprintf
+                0x0000000010006350                fiprintf
  .text._fwalk_sglue
-                0x0000000010006324       0x3c /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-fwalk.o)
-                0x0000000010006324                _fwalk_sglue
- .text.printf   0x0000000010006360       0x24 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-printf.o)
-                0x0000000010006360                printf
-                0x0000000010006360                iprintf
- .text.__sread  0x0000000010006384       0x22 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-stdio.o)
-                0x0000000010006384                __sread
+                0x0000000010006374       0x3c /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-fwalk.o)
+                0x0000000010006374                _fwalk_sglue
+ .text.printf   0x00000000100063b0       0x24 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-printf.o)
+                0x00000000100063b0                printf
+                0x00000000100063b0                iprintf
+ .text.__sread  0x00000000100063d4       0x22 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-stdio.o)
+                0x00000000100063d4                __sread
  .text.__swrite
-                0x00000000100063a6       0x38 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-stdio.o)
-                0x00000000100063a6                __swrite
- .text.__sseek  0x00000000100063de       0x24 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-stdio.o)
-                0x00000000100063de                __sseek
+                0x00000000100063f6       0x38 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-stdio.o)
+                0x00000000100063f6                __swrite
+ .text.__sseek  0x000000001000642e       0x24 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-stdio.o)
+                0x000000001000642e                __sseek
  .text.__sclose
-                0x0000000010006402        0x8 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-stdio.o)
-                0x0000000010006402                __sclose
- .text.memset   0x000000001000640a       0x10 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
-                0x000000001000640a                memset
- .text.strncmp  0x000000001000641a       0x24 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-strncmp.o)
-                0x000000001000641a                strncmp
- .text.strncpy  0x000000001000643e       0x26 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-strncpy.o)
-                0x000000001000643e                strncpy
+                0x0000000010006452        0x8 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-stdio.o)
+                0x0000000010006452                __sclose
+ .text.memset   0x000000001000645a       0x10 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memset.o)
+                0x000000001000645a                memset
+ .text.strncmp  0x000000001000646a       0x24 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-strncmp.o)
+                0x000000001000646a                strncmp
+ .text.strncpy  0x000000001000648e       0x26 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-strncpy.o)
+                0x000000001000648e                strncpy
  .text._close_r
-                0x0000000010006464       0x20 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-closer.o)
-                0x0000000010006464                _close_r
+                0x00000000100064b4       0x20 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-closer.o)
+                0x00000000100064b4                _close_r
  .text._lseek_r
-                0x0000000010006484       0x24 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lseekr.o)
-                0x0000000010006484                _lseek_r
- .text._read_r  0x00000000100064a8       0x24 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-readr.o)
-                0x00000000100064a8                _read_r
- .text._sbrk_r  0x00000000100064cc       0x20 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-sbrkr.o)
-                0x00000000100064cc                _sbrk_r
+                0x00000000100064d4       0x24 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lseekr.o)
+                0x00000000100064d4                _lseek_r
+ .text._read_r  0x00000000100064f8       0x24 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-readr.o)
+                0x00000000100064f8                _read_r
+ .text._sbrk_r  0x000000001000651c       0x20 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-sbrkr.o)
+                0x000000001000651c                _sbrk_r
  .text._write_r
-                0x00000000100064ec       0x24 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-writer.o)
-                0x00000000100064ec                _write_r
- .text.__errno  0x0000000010006510        0xc /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-errno.o)
-                0x0000000010006510                __errno
+                0x000000001000653c       0x24 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-writer.o)
+                0x000000001000653c                _write_r
+ .text.__errno  0x0000000010006560        0xc /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-errno.o)
+                0x0000000010006560                __errno
  .text.__libc_init_array
-                0x000000001000651c       0x48 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-init.o)
-                0x000000001000651c                __libc_init_array
+                0x000000001000656c       0x48 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-init.o)
+                0x000000001000656c                __libc_init_array
  .text.__retarget_lock_acquire_recursive
-                0x0000000010006564        0x2 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
-                0x0000000010006564                __retarget_lock_acquire_recursive
+                0x00000000100065b4        0x2 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+                0x00000000100065b4                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x0000000010006566        0x2 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
-                0x0000000010006566                __retarget_lock_release_recursive
- .text.memcpy   0x0000000010006568       0x1c /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy-stub.o)
-                0x0000000010006568                memcpy
- .text.abort    0x0000000010006584        0xe /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-abort.o)
-                0x0000000010006584                abort
- *fill*         0x0000000010006592        0x2 
- .text._free_r  0x0000000010006594       0x98 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-freer.o)
-                0x0000000010006594                _free_r
+                0x00000000100065b6        0x2 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-lock.o)
+                0x00000000100065b6                __retarget_lock_release_recursive
+ .text.memcpy   0x00000000100065b8       0x1c /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-memcpy-stub.o)
+                0x00000000100065b8                memcpy
+ .text.abort    0x00000000100065d4        0xe /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-abort.o)
+                0x00000000100065d4                abort
+ *fill*         0x00000000100065e2        0x2 
+ .text._free_r  0x00000000100065e4       0x98 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-freer.o)
+                0x00000000100065e4                _free_r
  .text.__sfputc_r
-                0x000000001000662c       0x2e /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-nano-vfprintf.o)
+                0x000000001000667c       0x2e /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-nano-vfprintf.o)
  .text.__sfputs_r
-                0x000000001000665a       0x24 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-nano-vfprintf.o)
-                0x000000001000665a                __sfputs_r
- *fill*         0x000000001000667e        0x2 
+                0x00000000100066aa       0x24 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-nano-vfprintf.o)
+                0x00000000100066aa                __sfputs_r
+ *fill*         0x00000000100066ce        0x2 
  .text._vfprintf_r
-                0x0000000010006680      0x234 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-nano-vfprintf.o)
-                0x0000000010006680                _vfiprintf_r
-                0x0000000010006680                _vfprintf_r
+                0x00000000100066d0      0x234 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-nano-vfprintf.o)
+                0x00000000100066d0                _vfiprintf_r
+                0x00000000100066d0                _vfprintf_r
  .text._printf_common
-                0x00000000100068b4       0xda /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-nano-vfprintf_i.o)
-                0x00000000100068b4                _printf_common
- *fill*         0x000000001000698e        0x2 
+                0x0000000010006904       0xda /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-nano-vfprintf_i.o)
+                0x0000000010006904                _printf_common
+ *fill*         0x00000000100069de        0x2 
  .text._printf_i
-                0x0000000010006990      0x244 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-nano-vfprintf_i.o)
-                0x0000000010006990                _printf_i
+                0x00000000100069e0      0x244 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-nano-vfprintf_i.o)
+                0x00000000100069e0                _printf_i
  .text.__sflush_r
-                0x0000000010006bd4      0x10c /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-fflush.o)
-                0x0000000010006bd4                __sflush_r
+                0x0000000010006c24      0x10c /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-fflush.o)
+                0x0000000010006c24                __sflush_r
  .text._fflush_r
-                0x0000000010006ce0       0x50 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-fflush.o)
-                0x0000000010006ce0                _fflush_r
+                0x0000000010006d30       0x50 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-fflush.o)
+                0x0000000010006d30                _fflush_r
  .text.__swbuf_r
-                0x0000000010006d30       0x7a /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-wbuf.o)
-                0x0000000010006d30                __swbuf_r
- *fill*         0x0000000010006daa        0x2 
+                0x0000000010006d80       0x7a /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-wbuf.o)
+                0x0000000010006d80                __swbuf_r
+ *fill*         0x0000000010006dfa        0x2 
  .text.__swsetup_r
-                0x0000000010006dac       0xb0 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-wsetup.o)
-                0x0000000010006dac                __swsetup_r
+                0x0000000010006dfc       0xb0 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-wsetup.o)
+                0x0000000010006dfc                __swsetup_r
  .text._raise_r
-                0x0000000010006e5c       0x50 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-signal.o)
-                0x0000000010006e5c                _raise_r
- .text.raise    0x0000000010006eac       0x10 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-signal.o)
-                0x0000000010006eac                raise
- .text._kill_r  0x0000000010006ebc       0x24 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-signalr.o)
-                0x0000000010006ebc                _kill_r
+                0x0000000010006eac       0x50 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-signal.o)
+                0x0000000010006eac                _raise_r
+ .text.raise    0x0000000010006efc       0x10 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-signal.o)
+                0x0000000010006efc                raise
+ .text._kill_r  0x0000000010006f0c       0x24 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-signalr.o)
+                0x0000000010006f0c                _kill_r
  .text._getpid_r
-                0x0000000010006ee0        0x4 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-signalr.o)
-                0x0000000010006ee0                _getpid_r
+                0x0000000010006f30        0x4 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-signalr.o)
+                0x0000000010006f30                _getpid_r
  .text.__swhatbuf_r
-                0x0000000010006ee4       0x4c /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-makebuf.o)
-                0x0000000010006ee4                __swhatbuf_r
+                0x0000000010006f34       0x4c /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-makebuf.o)
+                0x0000000010006f34                __swhatbuf_r
  .text.__smakebuf_r
-                0x0000000010006f30       0x78 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-makebuf.o)
-                0x0000000010006f30                __smakebuf_r
+                0x0000000010006f80       0x78 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-makebuf.o)
+                0x0000000010006f80                __smakebuf_r
  .text._fstat_r
-                0x0000000010006fa8       0x24 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-fstatr.o)
-                0x0000000010006fa8                _fstat_r
+                0x0000000010006ff8       0x24 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-fstatr.o)
+                0x0000000010006ff8                _fstat_r
  .text._isatty_r
-                0x0000000010006fcc       0x20 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-isattyr.o)
-                0x0000000010006fcc                _isatty_r
- .text._sbrk    0x0000000010006fec       0x1c /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(sbrk.o)
-                0x0000000010006fec                _sbrk
+                0x000000001000701c       0x20 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-isattyr.o)
+                0x000000001000701c                _isatty_r
+ .text._sbrk    0x000000001000703c       0x1c /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libnosys.a(sbrk.o)
+                0x000000001000703c                _sbrk
  *(.glue_7)
- .glue_7        0x0000000010007008        0x0 linker stubs
+ .glue_7        0x0000000010007058        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x0000000010007008        0x0 linker stubs
+ .glue_7t       0x0000000010007058        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x0000000010007008        0x0 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .eh_frame      0x0000000010007058        0x0 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+fp/hard/crtbegin.o
  *(.init)
- .init          0x0000000010007008        0x4 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+fp/hard/crti.o
-                0x0000000010007008                _init
- .init          0x000000001000700c        0x8 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+fp/hard/crtn.o
+ .init          0x0000000010007058        0x4 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x0000000010007058                _init
+ .init          0x000000001000705c        0x8 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+fp/hard/crtn.o
  *(.fini)
- .fini          0x0000000010007014        0x4 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+fp/hard/crti.o
-                0x0000000010007014                _fini
- .fini          0x0000000010007018        0x8 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+fp/hard/crtn.o
-                0x0000000010007020                . = ALIGN (0x4)
-                0x0000000010007020                _etext = .
+ .fini          0x0000000010007064        0x4 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x0000000010007064                _fini
+ .fini          0x0000000010007068        0x8 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+fp/hard/crtn.o
+                0x0000000010007070                . = ALIGN (0x4)
+                0x0000000010007070                _etext = .
 
-.vfp11_veneer   0x0000000010007020        0x0
- .vfp11_veneer  0x0000000010007020        0x0 linker stubs
+.vfp11_veneer   0x0000000010007070        0x0
+ .vfp11_veneer  0x0000000010007070        0x0 linker stubs
 
-.v4_bx          0x0000000010007020        0x0
- .v4_bx         0x0000000010007020        0x0 linker stubs
+.v4_bx          0x0000000010007070        0x0
+ .v4_bx         0x0000000010007070        0x0 linker stubs
 
-.iplt           0x0000000010007020        0x0
- .iplt          0x0000000010007020        0x0 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+.iplt           0x0000000010007070        0x0
+ .iplt          0x0000000010007070        0x0 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
 .startup_copro_fw.Reset_Handler
-                0x0000000010007020       0x50
+                0x0000000010007070       0x50
  .startup_copro_fw.Reset_Handler
-                0x0000000010007020       0x50 ./Application/Startup/startup_stm32mp157caax.o
-                0x0000000010007020                Reset_Handler
+                0x0000000010007070       0x50 ./Application/Startup/startup_stm32mp157caax.o
+                0x0000000010007070                Reset_Handler
 
-.rodata         0x0000000010007070      0x634
-                0x0000000010007070                . = ALIGN (0x4)
+.rodata         0x00000000100070c0      0x64c
+                0x00000000100070c0                . = ALIGN (0x4)
  *(.rodata)
- .rodata        0x0000000010007070      0x20a ./Application/User/main.o
- *fill*         0x000000001000727a        0x2 
- .rodata        0x000000001000727c       0x79 ./Application/User/mbox_ipcc.o
- *fill*         0x00000000100072f5        0x3 
- .rodata        0x00000000100072f8       0x1c ./Application/User/openamp.o
- .rodata        0x0000000010007314       0xa0 ./Middlewares/OpenAMP/libmetal/device.o
- .rodata        0x00000000100073b4       0xdf ./Middlewares/OpenAMP/open-amp/remoteproc/remoteproc_virtio.o
- *fill*         0x0000000010007493        0x1 
- .rodata        0x0000000010007494        0x1 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg.o
- *fill*         0x0000000010007495        0x3 
- .rodata        0x0000000010007498       0xbb ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
- *fill*         0x0000000010007553        0x1 
- .rodata        0x0000000010007554        0xa ./Middlewares/OpenAMP/virtual_driver/virt_uart.o
+ .rodata        0x00000000100070c0      0x222 ./Application/User/main.o
+ *fill*         0x00000000100072e2        0x2 
+ .rodata        0x00000000100072e4       0x79 ./Application/User/mbox_ipcc.o
+ *fill*         0x000000001000735d        0x3 
+ .rodata        0x0000000010007360       0x1c ./Application/User/openamp.o
+ .rodata        0x000000001000737c       0xa0 ./Middlewares/OpenAMP/libmetal/device.o
+ .rodata        0x000000001000741c       0xdf ./Middlewares/OpenAMP/open-amp/remoteproc/remoteproc_virtio.o
+ *fill*         0x00000000100074fb        0x1 
+ .rodata        0x00000000100074fc        0x1 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg.o
+ *fill*         0x00000000100074fd        0x3 
+ .rodata        0x0000000010007500       0xbb ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
+ *fill*         0x00000000100075bb        0x1 
+ .rodata        0x00000000100075bc        0xa ./Middlewares/OpenAMP/virtual_driver/virt_uart.o
  *(.rodata*)
- *fill*         0x000000001000755e        0x2 
+ *fill*         0x00000000100075c6        0x2 
  .rodata.__func__.0
-                0x0000000010007560        0xd ./Application/User/mbox_ipcc.o
- *fill*         0x000000001000756d        0x3 
+                0x00000000100075c8        0xd ./Application/User/mbox_ipcc.o
+ *fill*         0x00000000100075d5        0x3 
  .rodata.LED_PIN
-                0x0000000010007570       0x10 ./Drivers/BSP/stm32mp15xx_disco.o
+                0x00000000100075d8       0x10 ./Drivers/BSP/stm32mp15xx_disco.o
  .rodata.remoteproc_virtio_dispatch_funcs
-                0x0000000010007580       0x24 ./Middlewares/OpenAMP/open-amp/remoteproc/remoteproc_virtio.o
+                0x00000000100075e8       0x24 ./Middlewares/OpenAMP/open-amp/remoteproc/remoteproc_virtio.o
  .rodata.__func__.1
-                0x00000000100075a4       0x1e ./Middlewares/OpenAMP/open-amp/remoteproc/remoteproc_virtio.o
- *fill*         0x00000000100075c2        0x2 
+                0x000000001000760c       0x1e ./Middlewares/OpenAMP/open-amp/remoteproc/remoteproc_virtio.o
+ *fill*         0x000000001000762a        0x2 
  .rodata.__func__.0
-                0x00000000100075c4        0xe ./Middlewares/OpenAMP/open-amp/remoteproc/remoteproc_virtio.o
- *fill*         0x00000000100075d2        0x2 
+                0x000000001000762c        0xe ./Middlewares/OpenAMP/open-amp/remoteproc/remoteproc_virtio.o
+ *fill*         0x000000001000763a        0x2 
  .rodata.__func__.2
-                0x00000000100075d4       0x24 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
+                0x000000001000763c       0x24 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
  .rodata.__func__.1
-                0x00000000100075f8       0x21 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
- *fill*         0x0000000010007619        0x3 
+                0x0000000010007660       0x21 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
+ *fill*         0x0000000010007681        0x3 
  .rodata.__func__.0
-                0x000000001000761c       0x19 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
+                0x0000000010007684       0x19 ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
  .rodata.__assert_func.str1.1
-                0x0000000010007635       0x3c /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-assert.o)
+                0x000000001000769d       0x3c /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-assert.o)
                                          0x3d (size before relaxing)
  .rodata._vfprintf_r.str1.1
-                0x0000000010007671       0x11 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-nano-vfprintf.o)
+                0x00000000100076d9       0x11 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-nano-vfprintf.o)
  .rodata._printf_i.str1.1
-                0x0000000010007682       0x22 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-nano-vfprintf_i.o)
-                0x00000000100076a4                . = ALIGN (0x4)
+                0x00000000100076ea       0x22 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-nano-vfprintf_i.o)
+                0x000000001000770c                . = ALIGN (0x4)
 
-.ARM.extab      0x00000000100076a4        0x0
-                0x00000000100076a4                . = ALIGN (0x4)
+.ARM.extab      0x000000001000770c        0x0
+                0x000000001000770c                . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x00000000100076a4                . = ALIGN (0x4)
+                0x000000001000770c                . = ALIGN (0x4)
 
-.ARM            0x00000000100076a4        0x0
-                0x00000000100076a4                . = ALIGN (0x4)
-                0x00000000100076a4                __exidx_start = .
+.ARM            0x000000001000770c        0x0
+                0x000000001000770c                . = ALIGN (0x4)
+                0x000000001000770c                __exidx_start = .
  *(.ARM.exidx*)
-                0x00000000100076a4                __exidx_end = .
-                0x00000000100076a4                . = ALIGN (0x4)
+                0x000000001000770c                __exidx_end = .
+                0x000000001000770c                . = ALIGN (0x4)
 
-.preinit_array  0x00000000100076a4        0x0
-                0x00000000100076a4                . = ALIGN (0x4)
-                0x00000000100076a4                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x000000001000770c        0x0
+                0x000000001000770c                . = ALIGN (0x4)
+                0x000000001000770c                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x00000000100076a4                PROVIDE (__preinit_array_end = .)
-                0x00000000100076a4                . = ALIGN (0x4)
+                0x000000001000770c                PROVIDE (__preinit_array_end = .)
+                0x000000001000770c                . = ALIGN (0x4)
 
-.init_array     0x00000000100076a4        0x4
-                0x00000000100076a4                . = ALIGN (0x4)
-                0x00000000100076a4                PROVIDE (__init_array_start = .)
+.init_array     0x000000001000770c        0x4
+                0x000000001000770c                . = ALIGN (0x4)
+                0x000000001000770c                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x00000000100076a4        0x4 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+fp/hard/crtbegin.o
-                0x00000000100076a8                PROVIDE (__init_array_end = .)
-                0x00000000100076a8                . = ALIGN (0x4)
+ .init_array    0x000000001000770c        0x4 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x0000000010007710                PROVIDE (__init_array_end = .)
+                0x0000000010007710                . = ALIGN (0x4)
 
-.fini_array     0x00000000100076a8        0x4
-                0x00000000100076a8                . = ALIGN (0x4)
+.fini_array     0x0000000010007710        0x4
+                0x0000000010007710                . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x00000000100076a8        0x4 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .fini_array    0x0000000010007710        0x4 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+fp/hard/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x00000000100076ac                . = ALIGN (0x4)
-                0x00000000100076ac                __DATA_ROM = .
-                0x00000000100076ac                _sidata = LOADADDR (.data)
+                0x0000000010007714                . = ALIGN (0x4)
+                0x0000000010007714                __DATA_ROM = .
+                0x0000000010007714                _sidata = LOADADDR (.data)
 
-.data           0x0000000010020000      0x130 load address 0x00000000100076ac
+.data           0x0000000010020000      0x130 load address 0x0000000010007714
                 0x0000000010020000                . = ALIGN (0x4)
                 0x0000000010020000                _sdata = .
  *(.data)
@@ -6976,25 +6976,25 @@ LOAD /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.
                 0x000000001002012c                _impure_ptr
                 0x0000000010020130                . = ALIGN (0x4)
                 0x0000000010020130                _edata = .
-                0x00000000100077dc                __DATA_END = (__DATA_ROM + (_edata - _sdata))
+                0x0000000010007844                __DATA_END = (__DATA_ROM + (_edata - _sdata))
                 0x0000000010020000                text_end = (ORIGIN (m_text) + LENGTH (m_text))
                 0x0000000000000001                ASSERT ((__DATA_END <= text_end), region m_text overflowed with text and data)
 
-.igot.plt       0x0000000010020130        0x0 load address 0x00000000100077dc
+.igot.plt       0x0000000010020130        0x0 load address 0x0000000010007844
  .igot.plt      0x0000000010020130        0x0 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
 .resource_table
-                0x0000000010020130       0x8c load address 0x00000000100077dc
+                0x0000000010020130       0x8c load address 0x0000000010007844
                 0x0000000010020130                . = ALIGN (0x4)
  *(.resource_table*)
  .resource_table
                 0x0000000010020130       0x8c ./Application/User/rsc_table.o
                 0x0000000010020130                resource_table
                 0x00000000100201bc                . = ALIGN (0x4)
-                0x0000000010007868                _eirsc = (LOADADDR (.resource_table) + SIZEOF (.resource_table))
+                0x00000000100078d0                _eirsc = (LOADADDR (.resource_table) + SIZEOF (.resource_table))
                 0x0000000000000001                ASSERT (((SIZEOF (.resource_table) == 0x0) || (_eirsc <= text_end)), no room for resource_table load section in text)
 
-.rel.dyn        0x00000000100201bc        0x0 load address 0x0000000010007868
+.rel.dyn        0x00000000100201bc        0x0 load address 0x00000000100078d0
  .rel.iplt      0x00000000100201bc        0x0 /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.linux64_1.1.0.202305231506/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+fp/hard/crtbegin.o
                 0x00000000100201bc                . = ALIGN (0x4)
 
@@ -7283,41 +7283,41 @@ LOAD /opt/st/stm32cubeide_1.13.0/plugins/com.st.stm32cube.ide.mcu.externaltools.
  .comment       0x0000000000000043       0x44 ./Middlewares/OpenAMP/open-amp/virtio/virtqueue.o
  .comment       0x0000000000000043       0x44 ./Middlewares/OpenAMP/virtual_driver/virt_uart.o
 
-.debug_line     0x0000000000000000    0x1a0a9
+.debug_line     0x0000000000000000    0x1a0b6
  .debug_line    0x0000000000000000       0x7b ./Application/Startup/startup_stm32mp157caax.o
  .debug_line    0x000000000000007b      0x93d ./Application/User/lock_resource.o
- .debug_line    0x00000000000009b8      0xfe7 ./Application/User/main.o
- .debug_line    0x000000000000199f      0xe3f ./Application/User/mbox_ipcc.o
- .debug_line    0x00000000000027de      0xf6e ./Application/User/openamp.o
- .debug_line    0x000000000000374c      0x7f7 ./Application/User/openamp_log.o
- .debug_line    0x0000000000003f43      0xd80 ./Application/User/rsc_table.o
- .debug_line    0x0000000000004cc3      0xe50 ./Application/User/stm32mp1xx_hal_msp.o
- .debug_line    0x0000000000005b13      0xeee ./Application/User/stm32mp1xx_it.o
- .debug_line    0x0000000000006a01      0x84f ./Application/User/syscalls.o
- .debug_line    0x0000000000007250      0xaa5 ./Drivers/BSP/stm32mp15xx_disco.o
- .debug_line    0x0000000000007cf5      0x897 ./Drivers/CMSIS/system_stm32mp1xx.o
- .debug_line    0x000000000000858c      0xc9b ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal.o
- .debug_line    0x0000000000009227      0xca0 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_cortex.o
- .debug_line    0x0000000000009ec7      0xc54 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_gpio.o
- .debug_line    0x000000000000ab1b      0x8fd ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_hsem.o
- .debug_line    0x000000000000b418      0xb40 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_ipcc.o
- .debug_line    0x000000000000bf58      0x9d1 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_pwr.o
- .debug_line    0x000000000000c929     0x1b00 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_rcc.o
- .debug_line    0x000000000000e429     0x18e6 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_rcc_ex.o
- .debug_line    0x000000000000fd0f      0xc87 ./Middlewares/OpenAMP/libmetal/device.o
- .debug_line    0x0000000000010996      0x7b4 ./Middlewares/OpenAMP/libmetal/init.o
- .debug_line    0x000000000001114a      0xb86 ./Middlewares/OpenAMP/libmetal/io.o
- .debug_line    0x0000000000011cd0      0x7b8 ./Middlewares/OpenAMP/libmetal/log.o
- .debug_line    0x0000000000012488      0x93b ./Middlewares/OpenAMP/libmetal/generic/generic_device.o
- .debug_line    0x0000000000012dc3      0x925 ./Middlewares/OpenAMP/libmetal/generic/generic_init.o
- .debug_line    0x00000000000136e8      0x93d ./Middlewares/OpenAMP/libmetal/generic/generic_io.o
- .debug_line    0x0000000000014025      0x97a ./Middlewares/OpenAMP/libmetal/generic/template/sys.o
- .debug_line    0x000000000001499f      0xdc8 ./Middlewares/OpenAMP/open-amp/remoteproc/remoteproc_virtio.o
- .debug_line    0x0000000000015767      0xe1d ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg.o
- .debug_line    0x0000000000016584     0x110f ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
- .debug_line    0x0000000000017693      0xaa7 ./Middlewares/OpenAMP/open-amp/virtio/virtio.o
- .debug_line    0x000000000001813a     0x1147 ./Middlewares/OpenAMP/open-amp/virtio/virtqueue.o
- .debug_line    0x0000000000019281      0xe28 ./Middlewares/OpenAMP/virtual_driver/virt_uart.o
+ .debug_line    0x00000000000009b8      0xff4 ./Application/User/main.o
+ .debug_line    0x00000000000019ac      0xe3f ./Application/User/mbox_ipcc.o
+ .debug_line    0x00000000000027eb      0xf6e ./Application/User/openamp.o
+ .debug_line    0x0000000000003759      0x7f7 ./Application/User/openamp_log.o
+ .debug_line    0x0000000000003f50      0xd80 ./Application/User/rsc_table.o
+ .debug_line    0x0000000000004cd0      0xe50 ./Application/User/stm32mp1xx_hal_msp.o
+ .debug_line    0x0000000000005b20      0xeee ./Application/User/stm32mp1xx_it.o
+ .debug_line    0x0000000000006a0e      0x84f ./Application/User/syscalls.o
+ .debug_line    0x000000000000725d      0xaa5 ./Drivers/BSP/stm32mp15xx_disco.o
+ .debug_line    0x0000000000007d02      0x897 ./Drivers/CMSIS/system_stm32mp1xx.o
+ .debug_line    0x0000000000008599      0xc9b ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal.o
+ .debug_line    0x0000000000009234      0xca0 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_cortex.o
+ .debug_line    0x0000000000009ed4      0xc54 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_gpio.o
+ .debug_line    0x000000000000ab28      0x8fd ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_hsem.o
+ .debug_line    0x000000000000b425      0xb40 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_ipcc.o
+ .debug_line    0x000000000000bf65      0x9d1 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_pwr.o
+ .debug_line    0x000000000000c936     0x1b00 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_rcc.o
+ .debug_line    0x000000000000e436     0x18e6 ./Drivers/STM32MP1xx_HAL_Driver/stm32mp1xx_hal_rcc_ex.o
+ .debug_line    0x000000000000fd1c      0xc87 ./Middlewares/OpenAMP/libmetal/device.o
+ .debug_line    0x00000000000109a3      0x7b4 ./Middlewares/OpenAMP/libmetal/init.o
+ .debug_line    0x0000000000011157      0xb86 ./Middlewares/OpenAMP/libmetal/io.o
+ .debug_line    0x0000000000011cdd      0x7b8 ./Middlewares/OpenAMP/libmetal/log.o
+ .debug_line    0x0000000000012495      0x93b ./Middlewares/OpenAMP/libmetal/generic/generic_device.o
+ .debug_line    0x0000000000012dd0      0x925 ./Middlewares/OpenAMP/libmetal/generic/generic_init.o
+ .debug_line    0x00000000000136f5      0x93d ./Middlewares/OpenAMP/libmetal/generic/generic_io.o
+ .debug_line    0x0000000000014032      0x97a ./Middlewares/OpenAMP/libmetal/generic/template/sys.o
+ .debug_line    0x00000000000149ac      0xdc8 ./Middlewares/OpenAMP/open-amp/remoteproc/remoteproc_virtio.o
+ .debug_line    0x0000000000015774      0xe1d ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg.o
+ .debug_line    0x0000000000016591     0x110f ./Middlewares/OpenAMP/open-amp/rpmsg/rpmsg_virtio.o
+ .debug_line    0x00000000000176a0      0xaa7 ./Middlewares/OpenAMP/open-amp/virtio/virtio.o
+ .debug_line    0x0000000000018147     0x1147 ./Middlewares/OpenAMP/open-amp/virtio/virtqueue.o
+ .debug_line    0x000000000001928e      0xe28 ./Middlewares/OpenAMP/virtual_driver/virt_uart.o
 
 .debug_line_str
                 0x0000000000000000      0x109
