@@ -1,2 +1,0 @@
-/home/osboxes/STM32CubeMP1/Projects/STM32MP157C-DK2/Applications/OpenAMP/OpenAMP_TTY_echo/Src/lock_resource.c:60:23:Periph_Lock	24	static
-/home/osboxes/STM32CubeMP1/Projects/STM32MP157C-DK2/Applications/OpenAMP/OpenAMP_TTY_echo/Src/lock_resource.c:87:6:Periph_Unlock	16	static
